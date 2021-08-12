@@ -16,6 +16,8 @@ function removeElement(nums: number[], val: number): number {
   return n;
 };
 
+// Kỹ thuật sử dụng 2 con trỏ
+// j, k =  currentIndex
 function removeElement1(nums: number[], val: number): number {
   const arrayLength = nums.length;
   let ans = 0;
